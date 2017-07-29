@@ -1,0 +1,142 @@
+body {
+  font-family: arial;
+}
+
+#bodyContainer {
+  width: 90%;
+  background-color: #EFEFEF;
+  margin: 0 auto;
+  padding: 40px 0;
+  border: 1px solid #D3D3D3;
+  border-radius: 5px;
+}
+
+#linkContainer {
+  width: 90%;
+  margin: 10px auto;
+}
+
+#linkContainer a {
+  text-decoration: none;
+  color: #0645AD;
+}
+
+#linkContainer a:hover {
+  text-decoration: underline;
+}
+
+h1 {
+  font-size: 3em;
+  width: 100%;
+  margin: 0 5% 40px 5%;
+  text-align: left;
+  color: #2f4f4f;
+}
+
+p {
+  font-size: 1.8em;
+  text-align: left;
+  margin: 20px 5%;
+  color: #2f4f4f;
+}
+
+.buttonHolder {
+  margin: 0 auto;
+  width: 49%;
+}
+
+button {
+  border: none;
+  color: #fff;
+  font-weight: bold;
+  font-size: 1.3em;
+  padding: 20px;
+  border-radius: 5px;
+  margin-left: 5%;
+
+}
+
+hr {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.view, .home {
+  background-color: #337ab7;
+}
+
+.view:hover, .home:hover {
+  background-color: #00008B;
+}
+
+.make {
+  background-color: #ff6961;
+}
+
+.make:hover {
+  background-color: #8B0000;
+}
+
+#currentRes, #waitingRes, #makeRes {
+  width: 90%;
+  padding-bottom: 20px;
+  margin: 0 auto;
+  border: 1px solid #D3D3D3;
+  border-radius: 5px;
+  margin-top: 30px;
+  min-height: 80px;
+}
+
+#currentRes h2, #waitingRes h2, #makeRes h2 {
+
+  margin-bottom: 20px;
+  padding: 10px;
+  background-color: #EFEFEF;
+  font-size: 1.3em;
+}
+
+#currentRes div, #waitingRes div {
+  padding: 20px 0;
+  background-color: #EFEFEF;
+  margin: 10px auto;
+  width: 90%;
+  border: 1px solid #D3D3D3;
+  border-radius: 5px;
+}
+
+#currentRes #counter, #waitingRes #counter {
+  background-color: #337ab7;
+  font-weight: bold;
+  border-radius: 2px;
+  padding: 8px 10px;
+  margin-left: 10px;
+  color: #fff;
+  font-size: 1.2em;
+}
+
+#currentRes #resName, #waitingRes #resName {
+  background-color: none;
+  font-size: 1.2em;
+  color: #000;
+}
+
+form {
+  width: 95%;
+  margin: 20px auto;
+}
+
+input {
+  width: 100%;
+  line-height: 1.7em;
+  border: 1px solid #D3D3D3;
+  border-radius: 5px;
+  margin: 5px 0;
+}
+
+#submit {
+  margin-top: 10px;
+}
+
+#submit:hover {
+  background-color: #2f4f4f;
+}
